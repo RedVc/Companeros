@@ -8,19 +8,44 @@ body {
     color: white;
 }
 
+:root {
+    --hover: lightgreen; 
+}
+
 /* MAIN */
 .titulo {
+    margin-top: 10px;
     text-align: center;
 }
 
 .parrafo {
-    color: black;
+    color: white;
     background-color: grey;
 
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin: 10px 10px;
+
     width: fit-content;
     padding: 10px;
     border-radius: 4px;
+}
+
+/* .parrafo:hover {
+    color: var(--hover);
+} */
+
+.botonCentrado {
+    display: block;
+    margin: 5px auto;
+    padding: 4px;
+    border-radius: 4px;
+
+    color: white;
+    background-color: black;
+    border: solid 1px;
+    border-color: black;
+}
+
+.botonCentrado:hover {
+    color: var(--hover);
+    border-color: white;
 }
