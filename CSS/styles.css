@@ -49,3 +49,10 @@ body {
     color: var(--hover);
     border-color: white;
 }
+
+/* Modificación del navbar */
+.navbar{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
